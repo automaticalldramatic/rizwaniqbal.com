@@ -8,7 +8,7 @@ theme = "hermit"
 
 [params]
   themeColor = "#494f5c"  # Theme color in meta tags.
-  homeSubtitle = "Personal Website"
+  homeSubtitle = "Software Engineer based in Berlin"
 
   # Social Icons
   [[params.social]]
