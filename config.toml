@@ -1,3 +1,11 @@
 baseURL = "http://rizwaniqbal.com/"
 languageCode = "en-us"
 title = "Rizwan Iqbal"
+theme = "hermit"
+
+[author]
+  name = "Rizwan Iqbal"
+
+[params]
+  themeColor = "#494f5c"  # Theme color in meta tags.
+  homeSubtitle = "Personal Website"
