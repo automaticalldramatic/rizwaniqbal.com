@@ -16,8 +16,8 @@ theme = "hermit"
     url = "https://twitter.com/rizwaniqbal"
 
   [[params.social]]
-    name = "codepen"
-    url = "https://codepen.io/rizwaniqbal"
+    name = "linkedin"
+    url = "https://linkedin.com/in/rizwaniq/"
 
   [[params.social]]
     name = "github"
