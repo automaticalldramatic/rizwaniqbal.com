@@ -1,5 +1,5 @@
 baseURL = "http://rizwaniqbal.com/"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "Rizwan Iqbal"
 theme = "hermit"
 
@@ -8,7 +8,7 @@ theme = "hermit"
 
 [params]
   themeColor = "#494f5c"  # Theme color in meta tags.
-  homeSubtitle = "Software Engineer based in Berlin"
+  homeSubtitle = "Engineer based in Berlin"
 
   # Social Icons
   [[params.social]]
@@ -21,4 +21,4 @@ theme = "hermit"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/rizwaniqbal"
+    url = "https://github.com/automaticalldramatic"
