@@ -1,7 +1,9 @@
 baseURL = "http://www.rizwaniqbal.com/"
-languageCode = "en-gb"
 title = "Rizwan Iqbal"
 theme = "hermit"
+enableGitInfo = true
+languageCode = "en-gb"
+defaultContentLanguage = "en"
 
 [author]
   name = "Rizwan Iqbal"
