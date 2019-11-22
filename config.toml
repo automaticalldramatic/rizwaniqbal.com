@@ -9,6 +9,11 @@ defaultContentLanguage = "en"
   name = "Rizwan Iqbal"
 
 [params]
+  dateform        = "Jun 5, 2019"
+  dateformShort   = "Jun 5"
+  dateformNum     = "2019-06-05"
+  dateformNumTime = "2019-06-05 15:04 +0530"
+
   themeColor = "#494f5c"  # Theme color in meta tags.
   homeSubtitle = "Engineer based in Berlin"
 
@@ -24,3 +29,10 @@ defaultContentLanguage = "en"
   [[params.social]]
     name = "github"
     url = "https://github.com/automaticalldramatic"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 20
