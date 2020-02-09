@@ -15,7 +15,7 @@ defaultContentLanguage = "en"
   dateformNumTime = "2019-06-05 15:04 +0530"
 
   themeColor = "#494f5c"  # Theme color in meta tags.
-  homeSubtitle = "Engineer based in Berlin"
+  homeSubtitle = "An engineer intent on improving organisation culture"
 
   # Social Icons
   [[params.social]]
