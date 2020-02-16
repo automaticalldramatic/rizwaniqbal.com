@@ -1,4 +1,4 @@
-name: deploy-rizwaniqbal-to-firebase
+name: firebase-deploy
 
 on:
   push:
