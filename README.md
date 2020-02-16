@@ -1,5 +1,4 @@
-![firebase-deploy](https://github.com/automaticalldramatic/rizwaniqbal.com/workflows/deploy-rizwaniqbal-to-firebase
-/badge.svg?branch=master&event=push)
+![firebase-deploy](https://github.com/automaticalldramatic/rizwaniqbal.com/workflows/firebase-deploy/badge.svg?branch=master&event=push)
 
 # rizwaniqbal.com
 
