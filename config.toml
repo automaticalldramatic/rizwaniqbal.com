@@ -4,15 +4,22 @@ theme = "hermit"
 enableGitInfo = true
 languageCode = "en-gb"
 defaultContentLanguage = "en"
+assetDir="assets"
 
 [author]
   name = "Rizwan Iqbal"
 
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+  expiryDate = ["expiryDate"]
+
 [params]
-  dateform        = "Jun 5, 2019"
-  dateformShort   = "Jun 5"
-  dateformNum     = "2019-06-05"
-  dateformNumTime = "2019-06-05 15:04 +0530"
+  dateform        = "January 2, 2006"
+  dateformShort   = "January 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2019-01-02 15:04 +0100"
 
   themeColor = "#494f5c"  # Theme color in meta tags.
   homeSubtitle = "An engineer intent on improving organisation culture"

@@ -3,7 +3,8 @@ title: "How I structure Cloud Functions in Go"
 date: 2020-02-16T11:46:58+01:00
 draft: false
 toc: true
-images:
+images: 
+  - /images/landscape-photography-of-mountains-covered-in-snow-691668.jpg
 tags: 
   - go
   - gcloud
