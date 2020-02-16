@@ -1,10 +1,11 @@
-baseURL = "https://rizwaniqbal.com/"
 title = "Rizwan Iqbal"
+baseURL = "https://rizwaniqbal.com/"
 theme = "hermit"
 enableGitInfo = true
 languageCode = "en-gb"
 defaultContentLanguage = "en"
 assetDir="assets"
+disqusShortname="automaticalldramatic"
 
 [author]
   name = "Rizwan Iqbal"
@@ -22,7 +23,7 @@ assetDir="assets"
   dateformNumTime = "Jan 2 15:04:05 2006 MST"
 
   themeColor = "#494f5c"  # Theme color in meta tags.
-  homeSubtitle = "An engineer intent on improving organisation culture"
+  homeSubtitle = "An engineer intent on busting the myth of developer productivity"
 
   # Social Icons
   [[params.social]]
@@ -36,6 +37,10 @@ assetDir="assets"
   [[params.social]]
     name = "github"
     url = "https://github.com/automaticalldramatic"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url = "https://stackoverflow.com/users/1156254/automaticalldramatic"
 
 [menu]
 

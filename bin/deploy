@@ -1,9 +1,0 @@
-#!/bin/sh
-
-# Build site files.
-hugo
-
-# Upload site files to Google.
-gsutil -m rsync -R public gs://rizwaniqbal.com
-
-echo Deployment completed!
