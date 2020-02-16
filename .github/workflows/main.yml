@@ -18,7 +18,8 @@ jobs:
         
       - name: Build static assets
         uses: srt32/hugo-action@v0.0.3
-        args: "--theme=hermit"
+        with:
+          args: "--theme=hermit"
       
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
