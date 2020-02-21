@@ -26,9 +26,7 @@ Also, a friend and ex-colleague [Salih](https://salih.dev) was instrumental in p
 
 I started understanding this eco system and how Flutter came about. Its almost impossible to talk about Flutter web without mentioning Angular Dart.
 
-I started reading about Dart and landed on a lot of great videos on Angular Dart. One guy in particular, Evgeny Gusev from Wrike and his talk on Angular Dart inspired me a lot.
-
-{{youtube 0mHspoS5Zf8}}
+I started reading about Dart and landed on a lot of great videos on Angular Dart. One guy in particular, Evgeny Gusev from Wrike and [his talk on Angular Dart](https://www.youtube.com/embed/0mHspoS5Zf8) inspired me a lot.
 
 However, after reading about the various projects, pros and cons and spending a couple of days setting up Angular Dart, I moved on to Hummingbird, as it was called then and I believe still retains that project name. My very short, very biased verdict on Angular Dart was:
 
