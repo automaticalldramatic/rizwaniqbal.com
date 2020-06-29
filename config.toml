@@ -6,6 +6,7 @@ languageCode = "en-gb"
 defaultContentLanguage = "en"
 assetDir="assets"
 disqusShortname="automaticalldramatic"
+googleanalytics="UA-171167229-1"
 
 [author]
   name = "Rizwan Iqbal"
