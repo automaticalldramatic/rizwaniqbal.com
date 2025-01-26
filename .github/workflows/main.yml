@@ -45,9 +45,15 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Create SA key JSON 🔑
+        run: |
+          echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > $HOME/gcloud-service-key.json
+          export GOOGLE_APPLICATION_CREDENTIALS=$HOME/gcloud-service-key.json
+
       - name: Deploy to Firebase
         run: |
           npm install -g firebase-tools
+          firebase use ${{ secrets.FIREBASE_PROJECT_ID }}
           firebase projects:list
           # firebase deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID }}
         env:
