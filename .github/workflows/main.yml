@@ -44,11 +44,6 @@ jobs:
 
       - name: Build
         run: hugo --minify
-      
-      - name: Setup Firebase CLI
-        run: |
-          echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > $HOME/gcloud-service-key.json
-          export GOOGLE_APPLICATION_CREDENTIALS=$HOME/gcloud-service-key.json
 
       - name: Deploy to Firebase
         run: |
