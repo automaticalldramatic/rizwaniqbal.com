@@ -47,12 +47,12 @@ jobs:
       - name: Auth with Google Cloud
         uses: google-github-actions/auth@v1
         with:
-          credentials_json: '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}'
+          credentials_json: '${{ secrets.FIREBASE_SERVICE_KEY }}'
 
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_KEY }}'
           projectId: ${{ secrets.FIREBASE_PROJECT_ID }}
           channelId: live
