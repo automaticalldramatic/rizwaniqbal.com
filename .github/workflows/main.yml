@@ -43,21 +43,16 @@ jobs:
 
       - name: Build
         run: hugo --minify
-      
-      - name: Create SA key JSON 🔑
-        run: |
-          echo "${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}" | base64 -d > $HOME/gcloud-service-key.json
-          chmod 600 $HOME/gcloud-service-key.json
 
       - name: Auth with Google Cloud
         uses: google-github-actions/auth@v1
         with:
-          credentials_json: $HOME/gcloud-service-key.json
+          credentials_json: '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}'
 
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: $HOME/gcloud-service-key.json
+          firebaseServiceAccount: '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}'
           projectId: ${{ secrets.FIREBASE_PROJECT_ID }}
           channelId: live
