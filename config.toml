@@ -2,21 +2,9 @@ title = "Rizwan Iqbal"
 baseURL = "https://rizwaniqbal.com/"
 theme = "hermit"
 enableGitInfo = true
-languageCode = "en-gb"
-defaultContentLanguage = "en"
 assetDir="assets"
-disqusShortname="automaticalldramatic"
-googleanalytics="UA-171167229-1"
 
-[author]
-  name = "Rizwan Iqbal"
-
-[frontmatter]
-  date = ["date", "publishDate", "lastmod"]
-  lastmod = [":git", "lastmod", "date", "publishDate"]
-  publishDate = ["publishDate", "date"]
-  expiryDate = ["expiryDate"]
-
+# Updated configuration for newer Hugo versions
 [params]
   dateform        = "January 2, 2006"
   dateformShort   = "January 2"
@@ -24,7 +12,7 @@ googleanalytics="UA-171167229-1"
   dateformNumTime = "Jan 2 15:04:05 2006 MST"
 
   themeColor = "#494f5c"  # Theme color in meta tags.
-  homeSubtitle = "An engineer intent on busting the myth of developer productivity"
+  homeSubtitle = "Engineering leader passionate about building impactful developer experiences"
 
   # Social Icons
   [[params.social]]
@@ -43,9 +31,51 @@ googleanalytics="UA-171167229-1"
     name = "stackoverflow"
     url = "https://stackoverflow.com/users/1156254/automaticalldramatic"
 
+  author = "Rizwan Iqbal"  # Moving author to params
+  disqusShortname = "automaticalldramatic"  # Moving Disqus to params
+  googleAnalytics = "UA-171167229-1"  # Moving GA to params
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-171167229-1"
+
+[pagination]
+  pagerSize = 10  # Replaces old paginate parameter
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+  expiryDate = ["expiryDate"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [menu]
 
   [[menu.main]]
     name = "Posts"
     url = "posts/"
     weight = 20
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      subtitle = "An engineer intent on busting the myth of developer productivity"
+
+# Remove or comment out these deprecated configs:
+# languageCode = "en-gb"
+# defaultContentLanguage = "en"
+# paginate = 10
+# disqusShortname = "automaticalldramatic"
+# googleanalytics = "UA-171167229-1"
+# [author]
+#   name = "Rizwan Iqbal"
