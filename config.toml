@@ -70,12 +70,3 @@ assetDir="assets"
     weight = 1
     [languages.en.params]
       subtitle = "An engineer intent on busting the myth of developer productivity"
-
-# Remove or comment out these deprecated configs:
-# languageCode = "en-gb"
-# defaultContentLanguage = "en"
-# paginate = 10
-# disqusShortname = "automaticalldramatic"
-# googleanalytics = "UA-171167229-1"
-# [author]
-#   name = "Rizwan Iqbal"

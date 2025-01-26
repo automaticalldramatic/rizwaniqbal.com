@@ -44,11 +44,6 @@
 				<!-- </ul> -->
 			<!-- </div> -->
 		</div>
-		<div id="home-footer">
-			<p>
-				&copy; {{ now.Format "2006" }} <a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a>
-				{{- with .Site.Params.footerCopyright }} {{ . | safeHTML }} {{- end }}
-			</p>
-		</div>
+		{{ partial "footer.html" . }}
 	</div>
 {{ end }}
