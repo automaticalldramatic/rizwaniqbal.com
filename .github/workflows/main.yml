@@ -48,7 +48,7 @@ jobs:
       - name: Create SA key JSON 🔑
         run: |
             echo "${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}" > gcp_credentials_enc.json
-            cat gcp_credentials_enc.json | base64 -d > $HOME/gcp_credentials.json
+            cat gcp_credentials_enc.json > $HOME/gcp_credentials.json
 
       - name: Create Google Credentials ⛺️
         id: gac
