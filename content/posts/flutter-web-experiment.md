@@ -3,6 +3,7 @@ title: "Flutter Web Experiment"
 date: 2020-02-21T14:51:04+01:00
 draft: false
 toc: true
+featured: true
 images: 
   - /images/stones-3597772_1920.jpg
 tags: 
