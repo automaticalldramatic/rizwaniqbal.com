@@ -47,13 +47,13 @@ jobs:
 
       - name: Create SA key JSON 🔑
         run: |
-            echo "${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}" > gcp_credentials_enc.json
-            cat gcp_credentials_enc.json > $HOME/gcp_credentials.json
+          echo "${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}" | base64 -d > $HOME/gcloud-service-key.json
+          chmod 600 $HOME/gcloud-service-key.json
 
       - name: Create Google Credentials ⛺️
         id: gac
         run: |
-            echo "GOOGLE_APPLICATION_CREDENTIALS="$HOME"/gcp_credentials.json" >> $GITHUB_ENV
+            echo "GOOGLE_APPLICATION_CREDENTIALS="$HOME"/gcloud-service-key.json" >> $GITHUB_ENV
 
       - name: Set the environment var
         run: |
@@ -62,9 +62,6 @@ jobs:
       - name: Deploy to Firebase
         run: |
           npm install -g firebase-tools
-          firebase use ${{ secrets.FIREBASE_PROJECT_ID }}
-          # firebase deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID }}
+          firebase deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID }}
         env:
           GOOGLE_APPLICATION_CREDENTIALS: $HOME/gcloud-service-key.json
-          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
-        
