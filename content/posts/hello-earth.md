@@ -11,7 +11,7 @@ tags:
 custom_css: ["custom_css/post-styles.css"]
 ---
 
-Hello earthlings 🖖
+🖖
 
 This is yet another attempt by me to maintain a journal where I pen down my ramblings. I have in the past tried to discipline myself into writing regularly, but most of my attempts have ended in one lifeless heap of articles only found on the Wayback machine now. 
 
