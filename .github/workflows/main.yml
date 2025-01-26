@@ -11,8 +11,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-minimal
-    container:
-      image: klakegg/hugo:ext-alpine-ci
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -32,8 +30,6 @@ jobs:
     needs: build
     # if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-minimal
-    container:
-      image: klakegg/hugo:ext-alpine-ci
     steps:
       - name: Checkout
         uses: actions/checkout@v3
