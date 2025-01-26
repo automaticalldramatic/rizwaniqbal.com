@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-minimal
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -29,7 +29,7 @@ jobs:
   deploy:
     needs: build
     # if: startsWith(github.ref, 'refs/tags/v')
-    runs-on: ubuntu-minimal
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
