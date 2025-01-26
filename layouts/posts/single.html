@@ -23,6 +23,11 @@
 			<div class="content">
 				{{ .Content }}
 			</div>
+            {{- if .Params.comments }}
+            <div id="comments" class="thin">
+                {{ partial "comments.html" . }}
+            </div>
+            {{- end }}
 			<hr class="post-end">
 			<footer class="post-info">
 				{{- with .Params.tags }}

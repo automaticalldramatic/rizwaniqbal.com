@@ -35,6 +35,10 @@ assetDir="assets"
   disqusShortname = "automaticalldramatic"  # Moving Disqus to params
   googleAnalytics = "UA-171167229-1"  # Moving GA to params
 
+  comments = true  # Enable comments globally
+  # Show comment count on post summaries
+  showComments = true
+
 [services]
   [services.googleAnalytics]
     ID = "UA-171167229-1"
