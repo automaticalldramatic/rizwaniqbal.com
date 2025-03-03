@@ -2,8 +2,11 @@
 title: "Enhancing AI-Human Collaboration: The Role of Accessibility APIs"
 date: 2025-03-03
 draft: false
+image: "/images/human-ai-accessibility.jpg"
 images: 
-  - /images/human-ai-accessibility.jpg
+  - "/images/human-ai-accessibility.jpg"
+featured_image: "/images/human-ai-accessibility.jpg"
+thumbnail: "/images/human-ai-accessibility.jpg"
 description: "How accessibility APIs can bridge the gap between AI capabilities and human workflows to create more effective collaboration"
 tags: ["AI", "Accessibility", "Human-AI Collaboration", "Software Development", "API"]
 ---
