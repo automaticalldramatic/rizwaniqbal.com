@@ -33,15 +33,11 @@ assetDir="assets"
 
   author = "Rizwan Iqbal"  # Moving author to params
   disqusShortname = "automaticalldramatic"  # Moving Disqus to params
-  googleAnalytics = "UA-171167229-1"  # Moving GA to params
+  # GA4 is now configured directly in layouts/partials/analytics.html
 
   comments = true  # Enable comments globally
   # Show comment count on post summaries
   showComments = true
-
-[services]
-  [services.googleAnalytics]
-    ID = "UA-171167229-1"
 
 [pagination]
   pagerSize = 10  # Replaces old paginate parameter
