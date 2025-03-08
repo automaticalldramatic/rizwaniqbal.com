@@ -2,13 +2,12 @@
 title: "Enhancing AI-Human Collaboration: The Role of Accessibility APIs"
 date: 2025-03-03
 draft: false
-image: "/images/human-ai-accessibility.jpg"
 images: 
   - "/images/human-ai-accessibility.jpg"
-featured_image: "/images/human-ai-accessibility.jpg"
+featuredImg: "/images/human-ai-accessibility.jpg"
 thumbnail: "/images/human-ai-accessibility.jpg"
 description: "How accessibility APIs can bridge the gap between AI capabilities and human workflows to create more effective collaboration"
-tags: ["AI", "Accessibility", "Human-AI Collaboration", "Software Development", "API"]
+tags: ["AI", "Accessibility", "Human-AI Collaboration", "software development", "API"]
 ---
 
 AI-human collaboration is at a critical juncture. As AI agents increasingly integrate into our digital workflows, I've been thinking about a fundamental challenge they face: the disconnect between how humans interact with software and how AI systems access it. Most application APIs are designed for data exchange, not for mimicking human interaction patterns. This gap is preventing AI from truly enhancing our productivity in the ways we've imagined. The solution might lie in an unexpected place: accessibility APIs, which could revolutionize how AI understands and navigates human-centered interfaces.

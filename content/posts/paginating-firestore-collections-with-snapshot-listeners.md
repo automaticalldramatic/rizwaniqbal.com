@@ -3,14 +3,14 @@ title: "Paginating Firestore collections with snapshot listeners"
 date: 2020-04-28T19:05:15
 draft: false
 toc: true
-images: 
-  - /images/sky-space-telescope-universe-41951.jpg
+featuredImg: "/images/sky-space-telescope-universe-41951.jpg"
 tags: 
   - google cloud
   - gcloud
   - firestore
   - pagination
   - typescript
+  - software development
 ---
 
 There are times when you read the documentation for the way something works, you understand the nitty gritties of it and want to then implement the functionality. However, when you get down to doing it, you find you have questions that don't really answer your scenarios; you browse forums, boards and come out thinking maybe you don't really understand. 

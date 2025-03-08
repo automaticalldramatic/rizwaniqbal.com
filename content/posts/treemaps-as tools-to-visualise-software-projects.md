@@ -3,11 +3,7 @@ title: "Treemaps as tool to visualise software projects"
 date: 2019-11-22T11:44:51+01:00
 draft: false
 toc: true
-images:
-tags: 
-  - treemaps
-  - software analysis
-  - static analysis
+tags: ["treemaps", "software development", "software analysis", "management", "teams", "productivity"]
 ---
 
 
