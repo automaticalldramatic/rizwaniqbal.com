@@ -3,13 +3,12 @@ title: "How I structure Cloud Functions in Go"
 date: 2020-02-16T11:46:58+01:00
 draft: false
 toc: true
-images: 
-  - /images/landscape-photography-of-mountains-covered-in-snow-691668.jpg
+featuredImg: "/images/landscape-photography-of-mountains-covered-in-snow-691668.jpg"
 tags: 
   - go
   - gcloud
   - cloud functions
-  - guideline
+  - software development
 ---
 
 I started deploying cloud functions in Golang when they were first released in beta last year. The Go runtime support

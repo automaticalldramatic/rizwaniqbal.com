@@ -4,11 +4,10 @@ date: 2020-02-21T14:51:04+01:00
 draft: false
 toc: true
 featured: true
-images: 
-  - /images/stones-3597772_1920.jpg
+featuredImg: "/images/stones-3597772_1920.jpg"
 tags: 
   - flutter
-  - experiment
+  - software development
 ---
 
 A few months back I was really intrigued by Flutter and started taking a keen interest in building a cross platform app in Dart on the Flutter framework. This led to a small repository to consider using Flutter as the common codebase for Web and Mobile if I were to build a product that needed to leverage this.
